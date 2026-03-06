@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialista em Aquisição | Sites de Alta Conversão</title>
+    <meta name="description" content="Transformamos sites comuns em máquinas de aquisição de leads focadas em conversão e lucro.">
+    
+    <!-- Google Fonts: Plus Jakarta Sans (Visual mais moderno e UX/UI premium) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Configuração de Cores Solicitada -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#1f0a2a',   // Identidade Principal (Roxo/Preto Profundo)
+                            light: '#f3f0f3',  // Fundo (Gelo/Lilás claríssimo)
+                            accent: '#f2be11', // Destaque/Conversão (Amarelo Dourado)
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #f3f0f3;
+            color: #1f0a2a;
+        }
+        /* Efeito de sombra sutil para elementos no tema claro */
+        .glow-effect {
+            box-shadow: 0 10px 40px rgba(31, 10, 42, 0.08);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #1f0a2a, #5c3577);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand-dark selection:text-brand-light">
+
+    <!-- HEADER MINIMALISTA -->
+    <header class="fixed w-full z-50 top-0 bg-brand-light/90 backdrop-blur-md border-b border-brand-dark/10">
+        <div class="max-w-5xl mx-auto px-6 h-20 flex justify-between items-center">
+            <!-- Identidade da Marca usando #1f0a2a e detalhe em accent -->
+            <div class="font-bold text-xl tracking-tighter flex items-center gap-2 text-brand-dark">
+                <div class="w-3 h-3 bg-brand-accent rounded-full animate-pulse"></div>
+                LEAD<span class="font-light">MACHINE</span>
+            </div>
+            <a href="#oferta" class="hidden md:flex items-center gap-2 text-sm font-bold bg-brand-accent text-brand-dark px-5 py-2.5 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg shadow-brand-accent/20">
+                Agendar Sessão Estratégica
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (A Promessa Principal - Hormozi) -->
+    <section class="pt-40 pb-20 px-6 min-h-[90vh] flex flex-col justify-center relative overflow-hidden">
+        <!-- Elemento de fundo decorativo com a cor da identidade -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-brand-dark rounded-full opacity-[0.03] blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-dark/20 bg-brand-dark/5 text-sm font-semibold text-brand-dark mb-8">
+                <i class="ph-fill ph-target text-brand-accent text-lg"></i>
+                Para donos de negócios que precisam de mais clientes
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-8 text-brand-dark">
+                Seu site atual é um "cartão de visitas morto". <br>
+                <span class="text-gradient">Vamos transformá-lo em uma Máquina de Vendas.</span>
+            </h1>
+            
+            <p class="text-lg md:text-2xl text-brand-dark/80 mb-12 max-w-3xl mx-auto font-medium leading-relaxed">
+                Nós não fazemos "sites bonitinhos". Implementamos um <strong>Ecossistema de Aquisição</strong> (Design UX/UI + Copywriting + Estratégia) focado única e exclusivamente em multiplicar os leads qualificados do seu negócio.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#oferta" class="w-full sm:w-auto bg-brand-accent text-brand-dark font-extrabold text-lg px-8 py-4 rounded-full hover:scale-105 transition-all duration-300 shadow-[0_10px_30px_rgba(242,190,17,0.3)]">
+                    Quero Multiplicar Meus Leads
+                </a>
+                <p class="text-sm text-brand-dark/60 mt-4 sm:mt-0 sm:ml-4 flex items-center gap-1 font-semibold">
+                    <i class="ph-fill ph-clock"></i> Aplicação leva 2 minutos
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- A DOR (Jordan Belfort - Criando a Necessidade e Certeza) -->
+    <section class="py-24 border-t border-brand-dark/10 px-6 bg-white/50">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-brand-dark">A dura verdade sobre o mercado digital hoje.</h2>
+                    <div class="w-12 h-1 bg-brand-dark mb-8"></div>
+                    <p class="text-brand-dark/80 text-lg mb-6 leading-relaxed font-medium">
+                        Você sabe que o seu serviço é excelente. Mas na internet, a percepção é a realidade. 
+                        <strong>As pessoas julgam a qualidade do seu trabalho em 3 segundos.</strong>
+                    </p>
+                    <p class="text-brand-dark/80 text-lg mb-6 leading-relaxed font-medium">
+                        Se o seu site é confuso, lento, não é otimizado para celular, ou tem textos genéricos, você perde instantaneamente a confiança do visitante (e a venda vai para o seu concorrente).
+                    </p>
+                    <div class="bg-brand-dark/5 border border-brand-dark/10 p-6 rounded-2xl">
+                        <p class="font-bold text-brand-dark italic">
+                            "Um design de alta performance não é um custo. É o funil que garante que cada centavo investido em tráfego ou tempo não seja jogado no lixo."
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="relative bg-white border border-brand-dark/10 p-8 rounded-3xl glow-effect">
+                        <h3 class="text-xl font-bold mb-6 text-center text-brand-dark">O Custo do Seu Site Atual</h3>
+                        <ul class="space-y-6">
+                            <li class="flex items-start gap-4">
+                                <div class="w-8 h-8 rounded-full bg-brand-dark/10 flex items-center justify-center flex-shrink-0 mt-1">
+                                    <i class="ph-bold ph-x text-brand-dark"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-brand-dark">Tráfego Desperdiçado</h4>
+                                    <p class="text-sm text-brand-dark/70 font-medium">Pessoas clicam no seu anúncio ou Instagram, entram no site e saem sem deixar contato.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <div class="w-8 h-8 rounded-full bg-brand-dark/10 flex items-center justify-center flex-shrink-0 mt-1">
+                                    <i class="ph-bold ph-x text-brand-dark"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-brand-dark">Autoridade Comprometida</h4>
+                                    <p class="text-sm text-brand-dark/70 font-medium">Um design amador faz seu negócio parecer amador, forçando você a brigar por preço.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A SOLUÇÃO (Equação de Valor) -->
+    <section class="py-24 border-t border-brand-dark/10 px-6 relative">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 text-brand-dark">O Sistema de Aquisição</h2>
+                <p class="text-brand-dark/70 font-medium text-lg max-w-2xl mx-auto">Nós unimos três pilares fundamentais para transformar desconhecidos em clientes implorando pelo seu serviço.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pilar 1 -->
+                <div class="bg-white border border-brand-dark/10 p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 glow-effect">
+                    <div class="w-14 h-14 bg-brand-accent rounded-2xl flex items-center justify-center text-brand-dark mb-6 shadow-lg shadow-brand-accent/20">
+                        <i class="ph-fill ph-device-mobile text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-brand-dark">UX/UI Mobile-First</h3>
+                    <p class="text-brand-dark/70 font-medium text-sm leading-relaxed">
+                        90% dos seus clientes vêm pelo celular. Criamos interfaces esteticamente impecáveis, rápidas e sem atrito, guiando o olhar do usuário direto para o botão de compra/contato.
+                    </p>
+                </div>
+
+                <!-- Pilar 2 -->
+                <div class="bg-white border border-brand-dark/10 p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 glow-effect">
+                    <div class="w-14 h-14 bg-brand-accent rounded-2xl flex items-center justify-center text-brand-dark mb-6 shadow-lg shadow-brand-accent/20">
+                        <i class="ph-fill ph-pen-nib text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-brand-dark">Copy de Resposta Direta</h3>
+                    <p class="text-brand-dark/70 font-medium text-sm leading-relaxed">
+                        Palavras que vendem. Estruturamos os textos do site usando gatilhos mentais para ancorar valor, quebrar objeções e gerar desejo imediato pelo seu serviço.
+                    </p>
+                </div>
+
+                <!-- Pilar 3 -->
+                <div class="bg-white border border-brand-dark/10 p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 glow-effect">
+                    <div class="w-14 h-14 bg-brand-accent rounded-2xl flex items-center justify-center text-brand-dark mb-6 shadow-lg shadow-brand-accent/20">
+                        <i class="ph-fill ph-funnel text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-brand-dark">Mecanismo de Conversão</h3>
+                    <p class="text-brand-dark/70 font-medium text-sm leading-relaxed">
+                        Formulários estratégicos, botões de WhatsApp flutuantes e tracking de dados. O site trabalha 24/7 de forma ativa para capturar o contato do lead.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A OFERTA IRRESISTÍVEL & CTA GIGANTE -->
+    <section id="oferta" class="py-24 border-t border-brand-dark/10 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6 text-brand-dark">Pare de Perder Dinheiro.</h2>
+            <p class="text-xl text-brand-dark/80 font-medium mb-12 max-w-2xl mx-auto">
+                Se você tem capacidade de atender mais clientes, o único obstáculo no seu caminho é a forma como você está se apresentando na internet.
+            </p>
+
+            <div class="bg-brand-dark text-brand-light rounded-[40px] p-8 md:p-12 relative overflow-hidden transform hover:scale-[1.02] transition-transform duration-500 shadow-2xl shadow-brand-dark/40">
+                <div class="relative z-10">
+                    <h3 class="text-3xl md:text-4xl font-black tracking-tight mb-4">Projeto: Landing Page de Alta Performance</h3>
+                    <p class="text-lg font-medium mb-8 text-brand-light/80">Entrega rápida, sem dor de cabeça técnica para você.</p>
+                    
+                    <ul class="text-left max-w-lg mx-auto space-y-4 mb-10 font-medium">
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-2xl text-brand-accent"></i> Design Exclusivo e Responsivo (Foco em Mobile)</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-2xl text-brand-accent"></i> Estrutura de Copywriting Persuasivo Inclusa</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-2xl text-brand-accent"></i> Integração direta com seu WhatsApp/CRM</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-2xl text-brand-accent"></i> Hospedagem e Configuração técnica completa</li>
+                    </ul>
+
+                    <!-- CTA DIRETO PARA WHATSAPP -->
+                    <!-- Substitua o número 5500000000000 pelo seu número com DDD -->
+                    <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vi%20sua%20p%C3%A1gina%20e%20quero%20transformar%20meu%20site%20em%20uma%20m%C3%A1quina%20de%20leads." target="_blank" class="inline-flex items-center justify-center gap-3 w-full sm:w-auto bg-brand-accent text-brand-dark font-extrabold text-xl px-10 py-5 rounded-full hover:scale-105 transition-all duration-300 shadow-xl shadow-brand-accent/20">
+                        <i class="ph-fill ph-whatsapp text-3xl"></i>
+                        Falar com Especialista no WhatsApp
+                    </a>
+                    <p class="text-sm mt-4 text-brand-light/60 font-semibold">*Vagas limitadas para novos projetos neste mês.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-10 border-t border-brand-dark/10 text-center px-6">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="font-bold text-lg tracking-tighter flex items-center gap-2 text-brand-dark">
+                <div class="w-2 h-2 bg-brand-accent rounded-full"></div>
+                LEAD<span class="font-light">MACHINE</span>
+            </div>
+            <p class="text-brand-dark/50 font-medium text-sm">© 2024. Todos os direitos reservados. Focado em resultados absolutos.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
